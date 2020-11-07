@@ -1,4 +1,4 @@
-import 'package:fitness_muffin_app/home/home_screen.dart';
+import 'package:fitness_muffin_app/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.orange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      initialRoute: '/',
+      routes: routes,
     );
   }
 }

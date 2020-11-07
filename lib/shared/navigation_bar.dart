@@ -11,10 +11,6 @@ class NavigationBarWidget extends StatelessWidget {
           label: 'Home',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.view_list),
-          label: 'Exercises',
-        ),
-        BottomNavigationBarItem(
           icon: Icon(Icons.fitness_center),
           label: 'Workouts',
         ),
