@@ -1,3 +1,4 @@
+import 'package:fitness_muffin_app/widgets/navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,6 +11,7 @@ class HomeScreen extends StatelessWidget {
         title: Text('Home Page'),
       ),
       body: Center(child: Text('Hello World')),
+      bottomNavigationBar: NavigationBarWidget(),
     );
   }
 }
